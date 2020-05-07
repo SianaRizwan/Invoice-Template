@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Invoice Template</title>
+</head>
+<body>
+   <div class="container"> 
+<form class="form">
+<header class="jumbotron">
+    <div class="row"> 
+    <div class="col col-sm-6">
+        
+            <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Sector-3 <br> UTTARA, DHAKA</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-phone-alt"></i>
+                <p>017*********<br> +(02)8******</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-at"></i>
+                <p>sia**@gmail.com <br> art*****@gmail.com</p>
+            </div>
+    </div>
+        
+        <div class="col col-sm-5 comp-logo">
+            <img src="img/logo.jpg" alt="logoError"/>
+            <p> COMPANY NAME</p>
+        </div>
+    
+    </div>
+</header>
+
+<main>
+
+    <div class=" row container2">
+        <div class="col col-sm-4 row-head">
+            <h2>INVOICE</h2>
+            <p>Enjoy Buying</p>
+        </div>
+        <div class="col col-sm-1"></div>
+       
+            <div class=" col col-sm-7 invoice-details">
+                <div class=" row row-content">
+                <label for="invoice_no">Invoice no :</label>
+                <input type="text" id="invoice_no" placeholder="Enter Invoice no.">
+            </div>
+            
+            <div class="row row-content">
+                <label for="invoice_date">Invoice Date :</label>
+                <input type="date" id="invoice_date" placeholder="Invoice Date">
+            </div>
+            <div class="row row-content">
+                <label for="account_no">Account no :</label>
+                <input type="number" id="account_no" placeholder="Account no">
+            </div>
+        
+        </div>
+
+               <div class="col-12" style="text-align: center;">
+                <table cellspacing ="0"  class="table table-responsive-sm table-borderless table-striped table-sm">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">Serial no</th>
+                        <th scope="col">Item name</th>
+                        <th scope="col">Unit price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Kitkat</td>
+                          <td>30</td>
+                          <td>2</td>
+                          <td>60</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>MangoBar</td>
+                            <td>10</td>
+                            <td>2</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Oreo</td>
+                            <td>120</td>
+                            <td>1</td>
+                            <td>120</td>
+                        </tr>
+                      </tbody>
+                   
+                    
+                   <tfoot>
+                       <tr>
+                        <td colspan="3"></td>
+                           <td >TOTAL PRICE</td>
+                           <td>200.00</td>
+                       </tr>
+                       <tr>
+                        <td colspan="3"></td>
+                        <td >TAX</td>
+                        <td>15.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td >DISCOUNT</td>
+                        <td>00.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td ><b>SUBTOTAL</b></td>
+                        <td>215.00</td>
+                    </tr>
+                   </tfoot>
+                </table>
+            </div>
+            
+        
+        <div class=" col-12 generator" style="text-align: left;">
+            <h4>Created By</h4>
+            <p>XYZX <br> Junior Accountant<br>Company Name</p>
+        </div>
+    
+    
+    
+    
+</div>
+</main>
+<footer>
+    Invoice was created on a computer and is valid without the signature and seal.
+</footer>
+<div></div>
+</form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
